@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: GameTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.228 s <<< FAILURE! - in GameTest
+testInit  Time elapsed: 0.22 s  <<< ERROR!
+java.lang.ExceptionInInitializerError
+	at GameTest.testInit(GameTest.java:16)
+Caused by: java.lang.IllegalStateException: Toolkit not initialized
+	at GameTest.testInit(GameTest.java:16)
+
+testEvalWinning  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class javafx.scene.control.TextField
+	at GameTest.testEvalWinning(GameTest.java:23)
+
